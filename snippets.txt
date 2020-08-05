@@ -1,0 +1,4 @@
+ to run ----> yarn storybook
+
+
+ task --> create story for input component with variations in size(small, medium, large)
