@@ -2,10 +2,10 @@ import React from "react"
 import "./Input.css"
 
 const Input = props => {
-	const { variant, children, ...rest } = props
+	const { size = "medium", ...rest } = props
 	return (
 		<div>
-			<input className={`input ${variant}`} {...rest}></input>
+			<input className={`input ${size}`} {...rest} />
 		</div>
 	)
 }

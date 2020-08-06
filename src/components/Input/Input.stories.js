@@ -1,15 +1,19 @@
 import React from "react"
 import Input from "./Input"
+// input variations based on size
 
+// component story format has a default expor
 export default {
 	title: "Input",
 	component: Input,
+	// second property is optional
+	//some addons rely on it
 }
 
-export const Primary = () => <Input variant="primary">Primary</Input>
-export const Secondary = () => <Input variant="secondary">Secondary</Input>
-export const Success = () => <Input variant="success">Success</Input>
-export const Danger = () => <Input variant="danger">Danger</Input>
+//every named export represents a story
+export const Small = () => <Input size="small" placeholder="Small size" />
+export const Medium = () => <Input size="medium" placeholder="Medium size" />
+export const Large = () => <Input size="large" placeholder="Large size" />
 
 // create and visualize UI components in isolation
 // story book playground for UI components
