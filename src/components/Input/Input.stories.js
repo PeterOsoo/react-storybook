@@ -4,7 +4,7 @@ import Input from "./Input"
 
 // component story format has a default expor
 export default {
-	title: "Input",
+	title: "Form/Input",
 	component: Input,
 	// second property is optional
 	//some addons rely on it
