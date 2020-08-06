@@ -6,7 +6,6 @@ const Button = props => {
 	return (
 		<div>
 			<button className={`button ${variant}`} {...rest}>
-				{" "}
 				{children}
 			</button>
 		</div>
