@@ -4,6 +4,7 @@ import Button from "./Button"
 export default {
 	title: "Button",
 	component: Button,
+	// second key value pairs is optional
 }
 
 export const Primary = () => <Button variant="primary">Primary</Button>

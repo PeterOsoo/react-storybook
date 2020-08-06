@@ -10,6 +10,9 @@
     cursor: pointer;
 }
 
+
+/* for each specific button type  */
+
 /* Blue */
 .primary {
     background-color: #008CBA;
