@@ -6,6 +6,7 @@ import Input from "./Input"
 export default {
 	title: "Form/Input",
 	component: Input,
+
 	// second property is optional
 	//some addons rely on it
 }
