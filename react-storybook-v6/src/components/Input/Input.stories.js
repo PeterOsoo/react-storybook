@@ -16,6 +16,6 @@ export const Small = () => <Input size="small" placeholder="Small size" />
 export const Medium = () => <Input size="medium" placeholder="Medium size" />
 export const Large = () => <Input size="large" placeholder="Large size" />
 
-// small.storyName = "small input"
+Small.storyName = "Small Input"
 // create and visualize UI components in isolation
 // story book playground for UI components

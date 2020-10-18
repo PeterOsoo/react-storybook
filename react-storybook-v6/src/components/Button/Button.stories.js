@@ -1,13 +1,17 @@
 import React from "react"
 import Button from "./Button"
 
+// defualt export
 export default {
 	title: "Form/Button",
 	component: Button,
-	// second key value pairs is optional
+	// second key value pairs is optional, some addons rely
 }
 
+//specify named exports
+// named export is a react component
 export const Primary = () => <Button variant="primary">Primary</Button>
+
 export const Secondary = () => <Button variant="secondary">Secondary</Button>
 
 export const Success = () => <Button variant="success">Success</Button>
