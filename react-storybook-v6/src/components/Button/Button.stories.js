@@ -1,10 +1,12 @@
 import React from "react"
 import Button from "./Button"
+import Center from "../Center/Center"
 
 // defualt export
 export default {
 	title: "Form/Button",
 	component: Button,
+	decorators: [story => <Center>{story()}</Center>],
 	args: {
 		children: "Button",
 	},
