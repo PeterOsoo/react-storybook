@@ -20,3 +20,23 @@ export const Danger = () => <Button variant="danger">Danger</Button>
 
 // create and visualize UI components in isolation
 // story book playground for UI components
+
+const Template = args => <Button {...args} />
+
+export const PrimaryA = Template.bind({})
+PrimaryA.args = {
+	variant: "primary",
+	children: "Primary Args",
+}
+
+export const SecondaryA = Template.bind({})
+SecondaryA.args = {
+	variant: "secondary",
+	children: "Secondary Args",
+}
+
+export const LongPrimaryA = Template.bind({})
+LongPrimaryA.args = {
+	...PrimaryA.args,
+	children: "Long Primary Args",
+}
