@@ -7,6 +7,8 @@ export default {
 	argTypes: {
 		variantColor: { control: "text" },
 		children: { control: "text" },
+		// actions addon click
+		onClick: { action: "clicked" },
 	},
 }
 
