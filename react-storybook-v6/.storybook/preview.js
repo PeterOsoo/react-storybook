@@ -1,3 +1,6 @@
+import React from "react"
+import { ThemeProvider, theme, CSSReset, Box } from "@chakra-ui/core"
+
 export const parameters = {
 	actions: { argTypesRegex: "^on[A-Z].*" },
 	options: {
@@ -8,4 +11,14 @@ export const parameters = {
 	},
 }
 
+export const decorators = [
+	Story => (
+		<ThemeProvider theme={theme}>
+			<CSSReset />
+			<Box m="4">
+				<Story />
+			</Box>
+		</ThemeProvider>
+	),
+]
 // configuration file for stories that we write
