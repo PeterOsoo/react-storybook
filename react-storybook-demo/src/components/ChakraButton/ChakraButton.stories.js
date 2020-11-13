@@ -21,3 +21,12 @@ export const Danger = () => (
 
 // export const Success = () => <Button variantColor="green">Success</Button>
 // export const Danger = () => <Button variantColor="red">Danger</Button>
+
+export const Log = () => (
+	<Button
+		variantColor="blue"
+		onClick={() => console.log("Button clicked", process.env.STORYBOOK_THEME)}
+	>
+		Log
+	</Button>
+)
